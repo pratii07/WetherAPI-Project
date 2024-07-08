@@ -3,10 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0fd7a6f0d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="data">
-    </div>
+    <main>
+        <div class="container">
+
+            <div class="left-section">
+                <h1>Search for a City</h1>
+                <div class="search-city-input">
+                    <input type="text" placeholder="Enter City Name" class="search-input">
+                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <br>
+                <button class="clear-history-btn">Clear History</button>
+                <div class="search-history">
+                    <p>Recently searched cities : </p>
+                    <div class="searched-city-name">
+                       <p>Mumbai</p>
+                       <p>Pune</p>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="weather-info">
+                    <h2>Mumbai</h2>
+                    <p>Temperature : 80.62 deg </p>
+                    <p>Humidity : 70%</p>
+                    <p>Wind Speed : 3.4 MPH</p>
+                    
+                </div>
+
+                <div class="forecast">
+                    <h2>5-Day Forecast</h2>
+                    <div class="forecast-info">
+                        <div>
+                            <h4 class="date">2020-07-05</h4>
+                            <img src="" alt="">
+                            <p>Temperature : 77.25 deg </p>
+                            <p>Humidity : 87%</p>
+                            <p>Wind Speed : 1.7 MPH</p>
+                        </div>
+                        <div>
+                            <h4 class="date">2020-07-05</h4>
+                            <img src="" alt="">
+                            <p>Temperature : 77.25 deg </p>
+                            <p>Humidity : 87%</p>
+                            <p>Wind Speed : 1.7 MPH</p>
+                        </div>
+                        <div>
+                            <h4 class="date">2020-07-05</h4>
+                            <img src="" alt="">
+                            <p>Temperature : 77.25 deg </p>
+                            <p>Humidity : 87%</p>
+                            <p>Wind Speed : 1.7 MPH</p>
+                        </div>
+                        <div>
+                            <h4 class="date">2020-07-05</h4>
+                            <img src="" alt="">
+                            <p>Temperature : 77.25 deg </p>
+                            <p>Humidity : 87%</p>
+                            <p>Wind Speed : 1.7 MPH</p>
+                        </div>
+                        <div>
+                            <h4 class="date">2020-07-05</h4>
+                            <img src="" alt="">
+                            <p>Temperature : 77.25 deg </p>
+                            <p>Humidity : 87%</p>
+                            <p>Wind Speed : 1.7 MPH</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+    
 </body>
 </html>
